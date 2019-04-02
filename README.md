@@ -9,4 +9,4 @@ Tcp notifier threads:
 * Thread C loads IP list data from HD/DB and starts sending notifications to IPs.
 * Thread D logs.
 
-[[https://github.com/jurbbo/tcp-notifier/blob/master/images/notifer_server.png|alt=tcp_server_layout]]
+[[https://github.com/jurbbo/tcp-notifier/blob/master/images/notifier_server.png]]
