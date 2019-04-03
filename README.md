@@ -15,6 +15,7 @@ Tcp notifier threads:
 
 * Every new TCP-connection could start a new thread. Probably easier to code.
 * Reader thread could set response-jobs to queue and one worker thread could work with the queue.
+* Main thread on server could be the "reader thread". If not, there could be controller thread maintaining all the other threads. Latter would be better, if thread maintaining and controlling needs to be done in main thread.
 
 Since server can listen and send data simultaniously, concurrency enables minimun packet loss.
 
